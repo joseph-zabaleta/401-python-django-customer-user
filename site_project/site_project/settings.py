@@ -37,7 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'account.apps.AccountConfig',
+    
+
+    'django.contrib.sites', # required for auth of email
+    'allauth', # 3rd party django all auth
+    # 'allauth.account',
+    # 'allauth.socialaccount',
+    'account.apps.AccountConfig', #my app
 ]
 
 MIDDLEWARE = [
@@ -100,8 +106,15 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL = 'account.CustomUser'
+# EMAIL_BACKEND = 'django.core.mail.backendsconsole.EmailBackend'
 
+# AUTHENTICATION_BACKENDS = (
+#     'django.contrib.auth.backends.ModelBackend',
+#     'allauth.account.auth_backends/AuthenticationBackend',
+# )
+
+AUTH_USER_MODEL = 'account.CustomUser'
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
