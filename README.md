@@ -2,6 +2,8 @@
 
 ## Open Git Pull Requests  
 
+[https://github.com/joseph-zabaleta/django-customer-user/pull/1](https://github.com/joseph-zabaleta/django-customer-user/pull/1)  
+
 ---
 
 ## Overview  
@@ -10,13 +12,13 @@ For this lab you’ll build your application from the very beginning with a Cust
 ---
 
 ## Feature Tasks and Requirements  
-- [] create Django application from scratch that has a custom user model named `CustomUser`  
-- [] Custom user should use email instead of username for signup / login  
-- [] Application should work with Django Admin
+- [x] create Django application from scratch that has a custom user model named `CustomUser`  
+- [x] Custom user should use email instead of username for signup / login  
+- [x] Application should work with Django Admin
 
 ## User Acceptance Tests  
-- [] Verify the creation of a new user with email and password
-- [] Verify that duplicate emails are not allowed
+- [x] Verify the creation of a new user with email and password
+- [x] Verify that duplicate emails are not allowed
 
 ## Dependencies  
 - python = "^3.8"
@@ -27,13 +29,18 @@ For this lab you’ll build your application from the very beginning with a Cust
   - [Official Github](https://github.com/joseph-zabaleta)  
 
 ## Collaborations  
-- none  
+- Software Developer: Vij Rangarajan  
+  - Provided insight on unique emails  
+  - [Official Github](https://github.com/vijayetar)    
+- Software Developer: Iris Leal  
+  - Provided insight on unique emails  
+  - [Official Github](https://github.com/ilealm)  
 
 ## License  
 This project is under the MIT License.
 
 ## Acknowledgements / Resources  
-- none
+- [Custom User Model Tutorial](https://learndjango.com/tutorials/django-custom-user-model)  
 
 ## Version History  
 - 0.1 20200618
