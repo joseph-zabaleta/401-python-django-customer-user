@@ -10,9 +10,9 @@ For this lab you’ll build your application from the very beginning with a Cust
 ---
 
 ## Feature Tasks and Requirements  
-- [] create Django application from scratch that has a custom user model named `CustomUser`  
+- [x] create Django application from scratch that has a custom user model named `CustomUser`  
 - [] Custom user should use email instead of username for signup / login  
-- [] Application should work with Django Admin
+- [x] Application should work with Django Admin
 
 ## User Acceptance Tests  
 - [] Verify the creation of a new user with email and password
