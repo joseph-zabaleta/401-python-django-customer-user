@@ -15,8 +15,8 @@ For this lab you’ll build your application from the very beginning with a Cust
 - [x] Application should work with Django Admin
 
 ## User Acceptance Tests  
-- [] Verify the creation of a new user with email and password
-- [] Verify that duplicate emails are not allowed
+- [x] Verify the creation of a new user with email and password
+- [x] Verify that duplicate emails are not allowed
 
 ## Dependencies  
 - python = "^3.8"
@@ -27,7 +27,12 @@ For this lab you’ll build your application from the very beginning with a Cust
   - [Official Github](https://github.com/joseph-zabaleta)  
 
 ## Collaborations  
-- none  
+- Software Developer: Vij Rangarajan  
+  - Provided insight on unique emails  
+  - [Official Github](https://github.com/vijayetar)    
+- Software Developer: Iris Leal  
+  - Provided insight on unique emails  
+  - [Official Github](https://github.com/ilealm)  
 
 ## License  
 This project is under the MIT License.
