@@ -7,7 +7,6 @@ authors = ["joseph-zabaleta <joseph.l.zabaleta@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 Django = "^3.0.7"
-django-allauth = "^0.42.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
