@@ -33,7 +33,7 @@ For this lab you’ll build your application from the very beginning with a Cust
 This project is under the MIT License.
 
 ## Acknowledgements / Resources  
-- none
+- [Custom User Model Tutorial](https://learndjango.com/tutorials/django-custom-user-model)  
 
 ## Version History  
 - 0.1 20200618
