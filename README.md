@@ -2,6 +2,8 @@
 
 ## Open Git Pull Requests  
 
+[https://github.com/joseph-zabaleta/django-customer-user/pull/1](https://github.com/joseph-zabaleta/django-customer-user/pull/1)  
+
 ---
 
 ## Overview  
